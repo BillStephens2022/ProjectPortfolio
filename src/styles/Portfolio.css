@@ -1,0 +1,17 @@
+.portfolio-page {
+    background-color: #292b2c;
+    color: white;
+    text-align: center;
+}
+
+.project-container {
+    text-align: center;
+}
+
+.card {
+    padding: 10px;
+}
+
+.card-image {
+    background-color: white;
+}

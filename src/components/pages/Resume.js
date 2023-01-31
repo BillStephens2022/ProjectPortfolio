@@ -6,7 +6,7 @@ export default function Resume() {
     <div className="body-div">
       <div className="row">
         <div className="col-sm-4 col-md-3 col-lg-2 photo">
-          <img className="bill-pic" src="../../images/bill.jpeg" alt="Bill pic" />
+          <img className="bill-pic" src={`${process.env.PUBLIC_URL}/images/bill.jpeg`} alt="Bill pic" />
         </div>
         <div className="col-sm-8 col-md-9 col-lg-10 summary">
           <h1 className="header-name">Bill Stephens</h1>
@@ -18,8 +18,8 @@ export default function Resume() {
             {" "}
             Full Stack Web Developer with 25 year background in
             Finance/Accounting with Morgan Stanley and Credit
-            Suisse.&nbsp&nbsp;I am looking to leverage by finance background
-            with my newly acquired programming skills. &nbsp&nbsp;Strong problem
+            Suisse. &nbsp;&nbsp;I am looking to leverage by finance background
+            with my newly acquired programming skills. &nbsp;&nbsp;Strong problem
             solving and analytical skills with ability to multi-task in a high
             pressure environment.
           </h3>
@@ -105,7 +105,7 @@ export default function Resume() {
           <hr />
           <div className="MorganStanley">
             <h3 className="company">
-              <img className="MSLogo" src="images/MSLogo.png" alt="MS Logo" />
+              <img className="MSLogo" src={`${process.env.PUBLIC_URL}/images/MSLogo.png`} alt="MS Logo" />
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;New York, NY
             </h3>
             <p className="role">Vice President - Relationship Lending Controller</p>
@@ -160,7 +160,7 @@ export default function Resume() {
             <h3 className="company">
               <img
                 className="CSLogo"
-                src="images/CSLogo.png"
+                src={`${process.env.PUBLIC_URL}/images/CSLogo.png`}
                 alt="Credit Suisse Logo"
               />
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;New York, NY

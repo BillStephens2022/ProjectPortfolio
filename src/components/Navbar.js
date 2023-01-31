@@ -5,7 +5,7 @@ function Navbar({ currentPage, handlePageChange }) {
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container-fluid">
         <a className="navbar-brand" href="#portfolio">
-          My Portfolio
+          Bill Stephens
         </a>
         <button
           class="navbar-toggler"
