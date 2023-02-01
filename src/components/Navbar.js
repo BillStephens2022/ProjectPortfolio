@@ -2,7 +2,7 @@ import React from "react";
 
 function Navbar({ currentPage, handlePageChange }) {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
       <div className="container-fluid">
         <a className="navbar-brand" href="#portfolio">
           Bill Stephens
@@ -21,13 +21,8 @@ function Navbar({ currentPage, handlePageChange }) {
         <div className="collapse navbar-collapse" id="navbarNavDropdown">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a href="#home" onClick={() => handlePageChange('Home')} className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'} aria-current="page">
-                Home
-              </a>
-            </li>
-            <li className="nav-item">
-              <a href="#about" onClick={() => handlePageChange('About')} className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}>
-                About Me
+              <a href="#about" onClick={() => handlePageChange('About')} className={currentPage === 'About' ? 'nav-link active' : 'nav-link'} aria-current="page">
+                About
               </a>
             </li>
             <li className="nav-item">

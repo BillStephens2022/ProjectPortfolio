@@ -1,0 +1,77 @@
+.about-body {
+    position: relative;
+    background: url(../../public/images/background.jpeg);
+    font-style: Montserrat;
+    font-weight: 900;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    color: rgb(25, 43, 57);
+}
+
+.about-body h1 {
+    font-style: "Montserrat, non-serif";
+  font-weight: 900;
+  font-size: 6em;
+  animation: texclip 1.5s linear infinite;
+  background: linear-gradient(to right,#034f84 10%, #667292 50%, #45c983 60%);
+  background-clip: border-box;
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 10s linear infinite;
+  animation: slideLeft 1s ease-in-out;
+  display: inline-block;
+}
+
+@keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+  }
+
+.about-body h2 {
+    font-size: 3em;
+    color: brown;
+    animation: slideLeft 1s ease-in-out;
+}
+
+.about-body p {
+    font-size: 1.75em;
+    max-width: 700px;
+    padding: 15px;
+    margin-top: 15px;
+    color: rgb(25, 43, 57);
+}
+
+.bill-pic-1 {
+    text-align: center;
+    width: 60%;
+    border-radius: 5%;
+    border: cornsilk 10px double;
+    margin: 15px 0px 15px 15px;
+    animation: slideRight 1s ease-in-out;
+}
+
+@keyframes slideRight{
+    0% {
+    transform: translateX(-100%);
+    }
+    100% {
+    transform: translateX(0%);
+    }
+  }
+  
+  @keyframes slideLeft{
+    0% {
+    transform: translateX(100%);
+    }
+    100% {
+    transform: translateX(0%);
+    }
+  }
