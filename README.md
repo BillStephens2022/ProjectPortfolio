@@ -4,9 +4,12 @@
 
   This is an web app built with REACT to showcase my project portfolio.
   
-  See screenshot below:
-
+  See screenshots below:
   
+<img width="1004" alt="Screen Shot 2023-02-02 at 9 42 20 AM" src="https://user-images.githubusercontent.com/113722447/216358405-9b4c9f0f-6f57-40d4-b524-7ce3b00ef70b.png">
+
+  <img width="1585" alt="Screen Shot 2023-02-02 at 9 49 04 AM" src="https://user-images.githubusercontent.com/113722447/216358437-221ebd79-afe8-49df-863f-98e7647a5866.png">
+
   ## Table of Contents
   
   - [Installation](#installation)
