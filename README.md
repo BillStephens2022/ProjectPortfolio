@@ -2,11 +2,10 @@
 
   ## Description
 
-  This is an web app built with REACT to showcase my project portfolio.  My portfolio includes front end, back end, and full stack projects using various technologies.
+  This is an web app built with REACT to showcase my project portfolio.
   
   See screenshot below:
-
-
+  
   ## Table of Contents
   
   - [Installation](#installation)
