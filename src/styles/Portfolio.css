@@ -22,8 +22,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     display: inline-block;
-    margin: 100px 0 50px 0;
-  
+    margin: 100px 0 50px 0; 
 }
 
 .project-container {
@@ -33,17 +32,28 @@
 .card {
     padding: 12px;
     background-clip: border-box;
-    box-shadow: 3px 3px 3px white;
-    background-color: rgb(41, 22, 165) !important;
+    border: 2px #034f84 solid !important;
+    box-shadow: rgba(0, 0, 0, 0.45) 5px 20px 25px -5px;
+    padding: 0px !important;
+
 }
 
-.card-body {
-    
-    background: white;
+.card-body {  
+    background:#034f84;
+  
 }
 
 .card-image {
     background-color: white;
+}
+
+
+.card-title {
+    color: #FF512F;
+}
+
+.card-text {
+    color: white;
 }
 
 .btn {
@@ -55,13 +65,14 @@
     box-shadow: #222 1px 0 10px;
     text-decoration: underline;
     margin: 5px;
-  }
-  
-  .btn:hover, .btn:focus {
+    cursor: pointer;
+}
+
+.btn:hover, .btn:focus {
     background: white !important;
     -webkit-background-clip: none !important;
     -webkit-text-fill-color: #FF512F !important;
     border: 2px solid #FF512F !important; 
     box-shadow: #222 1px 0 10px;
     text-decoration: underline;
-  }
+}

@@ -26,7 +26,7 @@ export default function Contact() {
       }
     } else {
       if (!e.target.value.length) {
-        setErrorMessage(`${e.target.name} is required.`);
+        setErrorMessage(`${e.target.name} is required`);
       } else {
         setErrorMessage("");
       }
@@ -44,15 +44,16 @@ export default function Contact() {
         </div>
         <form>
           <h3>Drop Me a Message</h3>
+          <h4><i className="fa-solid fa-envelope email-icon"></i>two4onebill@yahoo.com</h4>
           <div className="row">
             <div className="col-md-6">
               <div className="form-group">
                 <input
                   type="text"
-                  name="yourName"
+                  name="name"
                   className="form-control"
                   placeholder="Your Name *"
-                  onChange={handleChange}
+                  onBlur={handleChange}
                 />
               </div>
               <div className="form-group">
@@ -61,7 +62,7 @@ export default function Contact() {
                   name="email"
                   className="form-control"
                   placeholder="Your Email *"
-                  onChange={handleChange}
+                  onBlur={handleChange}
                 />
               </div>
               <div className="form-group">
@@ -70,7 +71,7 @@ export default function Contact() {
                   name="subject"
                   className="form-control"
                   placeholder="The Subject of your Email *"
-                  onChange={handleChange}
+                  onBlur={handleChange}
                 />
               </div>
               <div className="form-group">
@@ -89,7 +90,7 @@ export default function Contact() {
                   className="form-control"
                   placeholder="Your Message *"
                   style={{ width: "100%", height: "150px" }}
-                  onChange={handleChange}
+                  onBlur={handleChange}
                 ></textarea>
               </div>
             </div>

@@ -4,8 +4,8 @@ function Navbar({ currentPage, handlePageChange }) {
   return (
     <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark justify-content-end">
       <div className="container-fluid">
-        <a className="navbar-brand" href="#portfolio">
-          Bill Stephens
+        <a className="navbar-brand" href="#about" onClick={() => handlePageChange('About')}>
+          <span className="brand">Bill Stephens</span>
         </a>
         <button
           className="navbar-toggler"

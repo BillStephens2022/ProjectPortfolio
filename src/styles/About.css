@@ -1,3 +1,4 @@
+
 .about-body {
     position: relative;
     background: url(../../public/images/background.jpeg);
@@ -36,12 +37,13 @@
     
   }
 
+  
 .about-body h2 {
-    font-size: 3em;
-    color: red;
-    text-shadow: #222 5px 5px;
-    font-weight: 900;
-    animation: slideLeft 1s ease-in-out;
+font-size: 3em;
+color: red;
+text-shadow: #222 5px 5px;
+font-weight: 900;
+animation: slideLeft 1s ease-in-out;
 }
 
 .about-paragraph {
@@ -103,7 +105,7 @@
   line-height: 60px;
   background-color: #222;
   color: white;
-  font-size: 2em;
+  font-size: 1.5em;
   text-align: center;
 }
 
@@ -111,10 +113,22 @@
   margin: 25px;
 }
 
+.brand {
+  font-weight: 900;
+  font-size: 1.25em;
+  padding: 10px;
+}
+
+.navbar-brand {
+  background: #034f84;
+  border-radius: 5px;
+}
+
 .nav-item {
   font-size: 1.25em;
   margin: 0 25px;
 }
+
 .active {
   background: red;
   border-radius: 5px;
