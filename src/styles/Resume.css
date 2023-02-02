@@ -1,186 +1,186 @@
 .body-div {
-    background-color: #fff;
-  }
+  background-color: #fff;
+}
   
-  p {
-    text-indent: 1%;
-  }
-  
-  .header-name {
-    font-style: Montserrat;
-    font-weight: 900;
-    color: #f0f0f0;
-    font-size: 30px;
-  }
-  
-  .header-occupation {
-    font-style: Montserrat;
-    font-weight: 400;
-    color: #f0f0f0;
-    font-size: 20px;
-  }
-  
-  .section-headers {
-    font-style: Montserrat;
-    font-weight: 900;
-    color: #618685;
-    font-size: 22px;
-    padding-top: 10px;
-  }
+p {
+  text-indent: 1%;
+}
 
-  .skills-subheading {
-    font-style: Montserrat;
-    font-weight: bold;
-    color: #618685;
-    font-size: 17px;
-    padding-top: 5px;
-  }
-  
-  .photo {
-    text-align: center;
-    background-color: #deeaee;
-  }
-  
+.header-name {
+  font-style: Montserrat;
+  font-weight: 900;
+  color: #f0f0f0;
+  font-size: 30px;
+}
+
+.header-occupation {
+  font-style: Montserrat;
+  font-weight: 400;
+  color: #f0f0f0;
+  font-size: 20px;
+}
+
+.section-headers {
+  font-style: Montserrat;
+  font-weight: 900;
+  color: #618685;
+  font-size: 22px;
+  padding-top: 10px;
+}
+
+.skills-subheading {
+  font-style: Montserrat;
+  font-weight: bold;
+  color: #618685;
+  font-size: 17px;
+  padding-top: 5px;
+}
+
+.photo {
+  text-align: center;
+  background-color: #deeaee;
+}
+
+.bill-pic {
+  text-align: center;
+  width: 75%;
+  border-radius: 20%;
+  border: 8px solid;
+  border-color: white;
+  margin: 15px 0px 15px 15px;
+}
+
+@media screen and (max-width: 600px) {
   .bill-pic {
-    text-align: center;
-    width: 75%;
-    border-radius: 20%;
-    border: 8px solid;
-    border-color: white;
-    margin: 15px 0px 15px 15px;
+    width: 200px;
   }
-  
-  @media screen and (max-width: 600px) {
-    .bill-pic {
-      width: 200px;
-    }
-  }
-  
-  .summary {
-    background: #36486b;
-    text-align: left;
-    padding: 20px;
-  }
-  
-  .header-summary {
-    font-style: Montserrat;
-    font-weight: 400;
-    color: #deeaee;
-    font-size: 18px;
-    line-height: 2rem;
-  }
-  
-  .header-hr {
-    background-color: #fff;
-    border: none;
-    height: 1px;
-  }
-  
-  .contact-info-technical {
-    background-color: #d5e1df;
-  }
-  
-  .contact-info {
-    line-height: 1px;
-  }
-  
-  .technical-skills {
-    background-color: #d5e1df;
-  }
-  
-  .fa {
-    color: #618685;
-  }
-  
-  .icon {
-    font-style: Montserrat;
-    font-weight: 100;
-    padding-left: 10px;
-    padding-top: 15px;
-  }
-  
-  .contact-details, .phone, .location, .linkedin, .portfolio {
-    font-style: Montserrat;
-    font-weight: 100;
-    padding-left: 10px;
-  }
-  
-  .work-experience {
-    background-color: #fff;
-  }
-  
-  .role {
-    font-style: Montserrat;
-    font-weight: 400;
-    color: #618685;
-    font-size: 20px;
-  }
-  
-  .company {
-    font-style: Montserrat;
-    font-weight: 400;
-    color: black;
-    font-size: 20px;
-  }
-  
-  .MSLogo{
-    width: 17.5%;
-    padding-right: 15px;
-  }
-  
-  .CSLogo {
-    width: 15%;
-    padding-right: 15px;
-    padding-bottom: 15px;
-  }
-  
-  .time-range {
-    font-style: Montserrat;
-    font-weight: 400;
-    color: black;
-    font-size: 15px;
-  }
-  
-  .work-bullets {
-    font-style: Montserrat;
-    font-weight: 100;
-    color: black;
-    font-size: 15px;
-  }
-  
-  .education {
-    line-height: 10px;
-  }
-  
-  .degree {
-    font-style: Montserrat;
-    font-weight: 400;
-    color: black;
-    font-size: 15px;
-  }
-  
-  .college {
-    font-style: Montserrat;
-    font-weight: 400;
-    color: black;
-    font-size: 15px;
-  }
-  
-  meter::-webkit-meter-optimum-value {
-    background: #618685; /* Required to get rid of the default background property */
-    background-color: #618685;
-    box-shadow: 0 5px 5px -5px #333 inset;
-  }
-  
-  .resume-div {
-    margin-top: 25px
-  }
+}
 
-  .download-button {
-    margin-top: 75px;
-    margin-bottom: auto;
-  }
+.summary {
+  background: #36486b;
+  text-align: left;
+  padding: 20px;
+}
 
-  .row {
-    margin-right: 0 !important;
-  }
+.header-summary {
+  font-style: Montserrat;
+  font-weight: 400;
+  color: #deeaee;
+  font-size: 18px;
+  line-height: 2rem;
+}
+
+.header-hr {
+  background-color: #fff;
+  border: none;
+  height: 1px;
+}
+
+.contact-info-technical {
+  background-color: #d5e1df;
+}
+
+.contact-info {
+  line-height: 1px;
+}
+
+.technical-skills {
+  background-color: #d5e1df;
+}
+
+.fa {
+  color: #618685;
+}
+
+.icon {
+  font-style: Montserrat;
+  font-weight: 100;
+  padding-left: 10px;
+  padding-top: 15px;
+}
+
+.contact-details, .phone, .location, .linkedin, .portfolio {
+  font-style: Montserrat;
+  font-weight: 100;
+  padding-left: 10px;
+}
+
+.work-experience {
+  background-color: #fff;
+}
+
+.role {
+  font-style: Montserrat;
+  font-weight: 400;
+  color: #618685;
+  font-size: 20px;
+}
+
+.company {
+  font-style: Montserrat;
+  font-weight: 400;
+  color: black;
+  font-size: 20px;
+}
+
+.MSLogo{
+  width: 17.5%;
+  padding-right: 15px;
+}
+
+.CSLogo {
+  width: 15%;
+  padding-right: 15px;
+  padding-bottom: 15px;
+}
+
+.time-range {
+  font-style: Montserrat;
+  font-weight: 400;
+  color: black;
+  font-size: 15px;
+}
+
+.work-bullets {
+  font-style: Montserrat;
+  font-weight: 100;
+  color: black;
+  font-size: 15px;
+}
+
+.education {
+  line-height: 10px;
+}
+
+.degree {
+  font-style: Montserrat;
+  font-weight: 400;
+  color: black;
+  font-size: 15px;
+}
+
+.college {
+  font-style: Montserrat;
+  font-weight: 400;
+  color: black;
+  font-size: 15px;
+}
+
+meter::-webkit-meter-optimum-value {
+  background: #618685; /* Required to get rid of the default background property */
+  background-color: #618685;
+  box-shadow: 0 5px 5px -5px #333 inset;
+}
+
+.resume-div {
+  margin-top: 25px
+}
+
+.download-button {
+  margin-top: 75px;
+  margin-bottom: auto;
+}
+
+.row {
+  margin-right: 0 !important;
+}

@@ -8,7 +8,7 @@ function Navbar({ currentPage, handlePageChange }) {
           Bill Stephens
         </a>
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNavDropdown"

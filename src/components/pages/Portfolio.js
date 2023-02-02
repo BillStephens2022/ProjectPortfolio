@@ -9,7 +9,7 @@ export default function Portfolio() {
       <h1>My Project Portfolio</h1>
       <div className="row project-container justify-content-around">
         {projects.map((project) => (
-          <ProjectCard project={project} />
+          <ProjectCard project={project} key={project.id}/>
         ))}
 
       </div>

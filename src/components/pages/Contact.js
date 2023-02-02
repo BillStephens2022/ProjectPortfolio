@@ -1,33 +1,67 @@
-import React from "react";
+import React, { useState } from "react";
 import "../../styles/Contact.css";
+import validateEmail from "../../utils/validators"
 
 export default function Contact() {
+  const [errorMessage, setErrorMessage] = useState("");
+  const [formState, setFormState] = useState({
+    yourName: '',
+    email: '',
+    subject: '',
+    message: ''
+  });
+
+  function handleSubmit(e) {
+    e.preventDefault();
+    console.log('submitted!');
+  }
+
+  function handleChange(e) {
+    if (e.target.name === "email") {
+      const isValid = validateEmail(e.target.value);
+      if (!isValid) {
+        setErrorMessage("Please Enter a Valid Email");
+      } else {
+        setErrorMessage("");
+      }
+    } else {
+      if (!e.target.value.length) {
+        setErrorMessage(`${e.target.name} is required.`);
+      } else {
+        setErrorMessage("");
+      }
+    }
+
+    if (!errorMessage) {
+      setFormState({ ...formState, [e.target.name]: e.target.value });
+    }
+  }
   return (
     <div className="container">
-      <div class="contact-form">
+      <div className="contact-form">
         <div className="contact-image">
-          <img src="images/bill.jpeg" alt="hose_contact" />
+          <img src="images/bill.jpeg" alt="bill-pic" />
         </div>
-        <form method="post" action="mailto:stephensbilltest@gmail.com">
+        <form>
           <h3>Drop Me a Message</h3>
           <div className="row">
             <div className="col-md-6">
               <div className="form-group">
                 <input
                   type="text"
-                  name="txtName"
+                  name="yourName"
                   className="form-control"
                   placeholder="Your Name *"
-                  value=""
+                  onChange={handleChange}
                 />
               </div>
               <div className="form-group">
                 <input
                   type="text"
-                  name="txtEmail"
+                  name="email"
                   className="form-control"
                   placeholder="Your Email *"
-                  value=""
+                  onChange={handleChange}
                 />
               </div>
               <div className="form-group">
@@ -36,31 +70,34 @@ export default function Contact() {
                   name="subject"
                   className="form-control"
                   placeholder="The Subject of your Email *"
-                  value=""
+                  onChange={handleChange}
                 />
               </div>
               <div className="form-group">
-                <input
+                <button
                   type="submit"
-                  name="btnSubmit"
                   className="btnContact"
-                  value="Send Message"
-                />
+                  onSubmit={handleSubmit}
+                > Send Message
+                </button>
               </div>
             </div>
             <div className="col-md-6">
               <div className="form-group">
                 <textarea
-                  name="txtMsg"
+                  name="message"
                   className="form-control"
                   placeholder="Your Message *"
                   style={{ width: "100%", height: "150px" }}
+                  onChange={handleChange}
                 ></textarea>
               </div>
             </div>
+            {errorMessage ? <p className="error-message">{errorMessage}</p> : null }
           </div>
         </form>
       </div>
+      
     </div>
   );
 }

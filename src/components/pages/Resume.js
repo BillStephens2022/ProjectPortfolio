@@ -2,9 +2,24 @@ import React from "react";
 import '../../styles/Resume.css';
 
 export default function Resume() {
+  const getResume = () => {
+    console.log('button clicked!');
+    fetch('BillStephens-Resume.pdf')
+    .then(res => {
+      res.blob()
+    .then(blob => {
+      const fileURL = window.URL.createObjectURL(blob);
+      let alink = document.createElement('a');
+      alink.href = fileURL;
+      alink.download = "BillStephens-Resume.pdf"
+      alink.click()
+    })
+  }) 
+}
+
   return (
     <div className="container">
-    <button className="btn btn-lg btn-primary download-button">Download</button>
+    <button onClick={getResume} className="btn btn-lg btn-primary download-button">Download PDF</button>
     <div className="body-div resume-div">
       <div className="row">
         <div className="col-sm-4 col-md-3 col-lg-2 photo">
