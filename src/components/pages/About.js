@@ -15,11 +15,13 @@ export default function About() {
         <div>
           <h1>Bill Stephens</h1>
           <h2>Full Stack Web Developer</h2>
-          <p>Full Stack Web Developer with 25 year background in Finance/Accounting in
-          the Investment Banking industry. I am looking to leverage by finance 
-          background with my newly acquired programming skills. Let's build something together!</p>
+          <p className="about-paragraph">
+            Full Stack Web Developer with a 25 year background in
+            Finance/Accounting in the Investment Banking industry. I am looking
+            to leverage by finance background with my newly acquired programming
+            skills. Let's build something together!
+          </p>
         </div>
-        
       </div>
     </div>
   );

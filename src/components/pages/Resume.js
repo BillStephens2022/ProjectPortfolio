@@ -3,7 +3,9 @@ import '../../styles/Resume.css';
 
 export default function Resume() {
   return (
-    <div className="body-div">
+    <div className="container">
+    <button className="btn btn-lg btn-primary download-button">Download</button>
+    <div className="body-div resume-div">
       <div className="row">
         <div className="col-sm-4 col-md-3 col-lg-2 photo">
           <img className="bill-pic" src={`${process.env.PUBLIC_URL}/images/bill.jpeg`} alt="Bill pic" />
@@ -294,6 +296,7 @@ export default function Resume() {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 }

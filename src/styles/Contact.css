@@ -1,5 +1,5 @@
 body {
-    background: -webkit-linear-gradient(left, #0072ff, #00c6ff);
+    background: -webkit-linear-gradient(left, #034f84 10%, #667292 80%);
 }
 
 .heading {
@@ -7,12 +7,18 @@ body {
   color: #fff;
 }
 
+.container {
+    min-height: 100vh;
+}
+
 .contact-form{
     background: #fff;
-    margin-top: 10%;
-    margin-bottom: 5%;
+    margin: 25% auto;
     width: 70%;
+    min-height: 50vh;
+    border-radius: 10px;
 }
+
 .contact-form .form-control{
     border-radius: 1rem;
     margin-bottom: 15px;
@@ -24,9 +30,9 @@ body {
 
 .contact-image img{
     border-radius: 5%;
-    border: 3px #0072ff double;
-    width: 11%;
-    margin-top: -3%;
+    border: 3px #667292 solid;
+    width: 15%;
+    margin-top: -7%;
 }
 
 .contact-form form{

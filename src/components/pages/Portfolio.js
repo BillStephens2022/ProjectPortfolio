@@ -6,7 +6,7 @@ import '../../styles/Portfolio.css';
 export default function Portfolio() {
   return (
     <div className="portfolio-page">
-      <h1>Portfolio</h1>
+      <h1>My Project Portfolio</h1>
       <div className="row project-container justify-content-around">
         {projects.map((project) => (
           <ProjectCard project={project} />

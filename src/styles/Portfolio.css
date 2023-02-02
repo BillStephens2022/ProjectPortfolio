@@ -1,7 +1,29 @@
+:root {
+    --gradient: linear-gradient(to left top, #DD2476 10%, #FF512F 90%) !important;
+}
+
 .portfolio-page {
-    background-color: #292b2c;
+    background: -webkit-linear-gradient(left, #034f84 10%, #667292 80%);
     color: white;
     text-align: center;
+    
+}
+
+.portfolio-page h1 {
+    font-size: 4em;
+    font-weight: 900;
+    background: linear-gradient(to right, #DD2476 10%, #FF512F 50%, #3c4344 60%);
+    background-clip: border-box;
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    margin: 100px 0 50px 0;
+  
 }
 
 .project-container {
@@ -9,9 +31,37 @@
 }
 
 .card {
-    padding: 10px;
+    padding: 12px;
+    background-clip: border-box;
+    box-shadow: 3px 3px 3px white;
+    background-color: rgb(41, 22, 165) !important;
+}
+
+.card-body {
+    
+    background: white;
 }
 
 .card-image {
     background-color: white;
 }
+
+.btn {
+    background: var(--gradient) !important;
+    /* -webkit-background-clip: none !important;
+    -webkit-text-fill-color: #fff !important; */
+    border: 2px solid #fff !important; 
+    -webkit-text-fill-color: white !important;
+    box-shadow: #222 1px 0 10px;
+    text-decoration: underline;
+    margin: 5px;
+  }
+  
+  .btn:hover, .btn:focus {
+    background: white !important;
+    -webkit-background-clip: none !important;
+    -webkit-text-fill-color: #FF512F !important;
+    border: 2px solid #FF512F !important; 
+    box-shadow: #222 1px 0 10px;
+    text-decoration: underline;
+  }

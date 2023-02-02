@@ -1,14 +1,9 @@
 import React from "react";
-import Modal from "react-bootstrap/Modal";
-import ModalBody from "react-bootstrap/ModalBody";
-import ModalHeader from "react-bootstrap/ModalHeader";
-import ModalFooter from "react-bootstrap/ModalFooter";
-import ModalTitle from "react-bootstrap/ModalTitle";
 
 export default function ProjectCard({ project }) {
   console.log(project);
   return (
-    <div className="col-2 card m-2 text-black bg-light" dataToggle="modal" dataTarget=".modal-profile-lg">
+    <div className="col-lg-2 col-md-5 col-sm-6 card m-2 mb-4 text-black bg-light">
       <div className="card-image bg-danger">
       <img
         src={`${process.env.PUBLIC_URL}/images/${project.image1}`}
@@ -23,29 +18,21 @@ export default function ProjectCard({ project }) {
       <div className="card-body">
       {project.deployedUrl !== "N/A" 
         ?
-        <a href={project.deployedUrl} class="card-link text-white">
+        <a href={project.deployedUrl} class="btn card-link text-black button-link">
+        <i class="fas fa-link"></i>
           Deployed App
         </a>
         :
         null
       }
         
-        <a href={project.deployedUrl} class="card-link text-white">
+        <a href={project.deployedUrl} class="btn card-link text-black button-link">
+        <i class="fab fa-github"></i>
           Github Repo
         </a>
         
 
       </div>
-
-    	{/* <!-- .modal-profile --> */}
-      <Modal show={false}>
-      <ModalHeader>
-        <ModalTitle>{project.title}</ModalTitle>
-      </ModalHeader>
-      <ModalBody>{project.image2}</ModalBody>
-      <ModalFooter>This is the footer</ModalFooter>
-    </Modal>
-	{/* <!-- //.modal-profile --> */}
     </div>
   );
 }

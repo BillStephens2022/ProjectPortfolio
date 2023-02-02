@@ -10,11 +10,11 @@
 }
 
 .about-body h1 {
-    font-style: "Montserrat, non-serif";
+  font-style: "Montserrat, non-serif";
   font-weight: 900;
   font-size: 6em;
   animation: texclip 1.5s linear infinite;
-  background: linear-gradient(to right,#034f84 10%, #667292 50%, #45c983 60%);
+  background: linear-gradient(to right,#034f84 10%, #667292 50%, #3c4344 60%);
   background-clip: border-box;
   background-size: auto auto;
   background-clip: border-box;
@@ -25,28 +25,37 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: textclip 10s linear infinite;
-  animation: slideLeft 1s ease-in-out;
   display: inline-block;
 }
 
 @keyframes textclip {
+  
     to {
       background-position: 200% center;
     }
+    
   }
 
 .about-body h2 {
     font-size: 3em;
-    color: brown;
+    color: red;
+    text-shadow: #222 5px 5px;
+    font-weight: 900;
     animation: slideLeft 1s ease-in-out;
 }
 
-.about-body p {
+.about-paragraph {
     font-size: 1.75em;
+    font-weight: 500;
     max-width: 700px;
     padding: 15px;
     margin-top: 15px;
-    color: rgb(25, 43, 57);
+    color: #fff;
+    animation: slideUp 1s ease-in-out;
+    background-color: #3c4344;
+    border-radius: 10px;
+    box-shadow: white 5px 5px 15px;
+    line-height: 1.5em;
 }
 
 .bill-pic-1 {
@@ -69,9 +78,44 @@
   
   @keyframes slideLeft{
     0% {
-    transform: translateX(100%);
+    transform: translateX(300%);
     }
     100% {
     transform: translateX(0%);
     }
   }
+
+  @keyframes slideUp {
+    0% {
+    transform: translateY(300%);
+    }
+    100% {
+    transform: translateY(0%);
+    }
+  }
+
+
+.footer {
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  background-color: #222;
+  color: white;
+  font-size: 2em;
+  text-align: center;
+}
+
+.footer-icon, .footer-span {
+  margin: 25px;
+}
+
+.nav-item {
+  font-size: 1.25em;
+  margin: 0 25px;
+}
+.active {
+  background: red;
+  border-radius: 5px;
+}

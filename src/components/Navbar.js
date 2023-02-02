@@ -2,7 +2,7 @@ import React from "react";
 
 function Navbar({ currentPage, handlePageChange }) {
   return (
-    <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+    <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark justify-content-end">
       <div className="container-fluid">
         <a className="navbar-brand" href="#portfolio">
           Bill Stephens
@@ -18,7 +18,7 @@ function Navbar({ currentPage, handlePageChange }) {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse" id="navbarNavDropdown">
+        <div className="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
           <ul className="navbar-nav">
             <li className="nav-item">
               <a href="#about" onClick={() => handlePageChange('About')} className={currentPage === 'About' ? 'nav-link active' : 'nav-link'} aria-current="page">
