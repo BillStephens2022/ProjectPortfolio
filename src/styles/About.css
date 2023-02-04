@@ -154,13 +154,11 @@ animation: slideLeft 1s ease-in-out;
   .about-body p {
     font-size: 1.25em;
     text-align: center;
-   
   }
 
   .about-body img {
     width: 40%;
     margin-bottom: 0;
-
   }
 
   .nav-item, .brand {

@@ -1,5 +1,7 @@
 import React from "react";
 
+// Navbar component.  Defaults to About page.
+
 function Navbar({ currentPage, handlePageChange }) {
   return (
     <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark justify-content-end">

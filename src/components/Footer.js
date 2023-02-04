@@ -1,6 +1,8 @@
 import React from "react";
 import "../styles/About.css";
 
+// Footer component w/ links to github profile, linkedin and instagram profiles.
+
 export default function Footer() {
   return (
     

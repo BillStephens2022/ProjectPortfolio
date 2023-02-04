@@ -1,6 +1,8 @@
 import React from "react";
 import '../../styles/Resume.css';
 
+// Resume page displaying Resume and a button to download as a pdf file
+
 export default function Resume() {
   const getResume = () => {
     console.log('button clicked!');

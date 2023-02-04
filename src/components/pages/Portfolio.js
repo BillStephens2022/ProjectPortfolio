@@ -3,6 +3,8 @@ import ProjectCard from '../../components/ProjectCard';
 import { projects } from '../../data/projects';
 import '../../styles/Portfolio.css';
 
+// Portfolio Page displaying ProjectCard components
+
 export default function Portfolio() {
   return (
     <div className="portfolio-page">

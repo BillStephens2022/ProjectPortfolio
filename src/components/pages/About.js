@@ -1,6 +1,8 @@
 import React from "react";
 import "../../styles/About.css";
 
+// 'About Me' landing page with a photo, name, and paragraph about me
+
 export default function About() {
   return (
     <div className="about-body row">

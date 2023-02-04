@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import "../../styles/Contact.css";
 import validateEmail from "../../utils/validators"
 
+// Contact page with a form for sending an email message
+
 export default function Contact() {
   const [errorMessage, setErrorMessage] = useState("");
   const [formState, setFormState] = useState({
