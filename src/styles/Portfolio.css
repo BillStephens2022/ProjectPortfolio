@@ -76,3 +76,15 @@
     box-shadow: #222 1px 0 10px;
     text-decoration: underline;
 }
+
+@media screen and (max-width: 900px) {
+    .portfolio-page h1 {
+      font-size: 4em;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .portfolio-page h1 {
+      font-size: 2em;
+    }
+}

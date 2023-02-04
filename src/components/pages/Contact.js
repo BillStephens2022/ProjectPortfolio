@@ -40,13 +40,13 @@ export default function Contact() {
     <div className="container">
       <div className="contact-form">
         <div className="contact-image">
-          <img src="images/bill.jpeg" alt="bill-pic" />
+          <img src={`${process.env.PUBLIC_URL}/images/bill.jpeg`} alt="bill-pic" className="contact-pic"/>
         </div>
         <form>
           <h3>Drop Me a Message</h3>
           <h4><i className="fa-solid fa-envelope email-icon"></i>two4onebill@yahoo.com</h4>
           <div className="row">
-            <div className="col-md-6">
+            <div className="col-md-6 col-sm-12">
               <div className="form-group">
                 <input
                   type="text"
@@ -69,7 +69,7 @@ export default function Contact() {
                 <input
                   type="text"
                   name="subject"
-                  className="form-control"
+                  className="form-control subject"
                   placeholder="The Subject of your Email *"
                   onBlur={handleChange}
                 />
@@ -83,11 +83,11 @@ export default function Contact() {
                 </button>
               </div>
             </div>
-            <div className="col-md-6">
+            <div className="col-md-6 col-sm-12">
               <div className="form-group">
                 <textarea
                   name="message"
-                  className="form-control"
+                  className="form-control message"
                   placeholder="Your Message *"
                   style={{ width: "100%", height: "150px" }}
                   onBlur={handleChange}

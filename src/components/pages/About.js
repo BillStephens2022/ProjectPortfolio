@@ -4,15 +4,15 @@ import "../../styles/About.css";
 export default function About() {
   return (
     <div className="about-body row">
-      <div className="col-4 d-flex align-items-center justify-content-center">
+      <div className="col-lg-4 col-sm-12 d-flex align-items-center justify-content-center">
         <img
           className="bill-pic-1"
           src={`${process.env.PUBLIC_URL}/images/bill.jpeg`}
           alt="bill-pic"
         />
       </div>
-      <div className="col-8 d-flex align-items-center">
-        <div>
+      <div className="col-lg-8 col-sm-12 d-flex align-items-center">
+        <div class="about-div">
           <h1>Bill Stephens</h1>
           <h2>Full Stack Web Developer</h2>
           <p className="about-paragraph">

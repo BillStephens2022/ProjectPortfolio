@@ -87,7 +87,7 @@ export default function Resume() {
             <hr />
             <p className="skills-subheading">Programming</p>
             <ul>
-              <li>HTML/CSS/Bootstrap</li>
+              <li>HTML/CSS</li>
               <meter max="120" value="100" title="GB"></meter>
               <li>JavaScipt / Node / React</li>
               <meter max="120" value="80" title="GB"></meter>

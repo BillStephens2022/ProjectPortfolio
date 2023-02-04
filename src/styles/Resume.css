@@ -50,10 +50,14 @@ p {
   margin: 15px 0px 15px 15px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
   .bill-pic {
-    width: 200px;
+    width: 150px;
   }
+  .container {
+    min-width: 99vw;
+  }
+
 }
 
 .summary {

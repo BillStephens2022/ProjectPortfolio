@@ -86,3 +86,47 @@ body {
     font-size: 2em;
     color: red;
 }
+
+@media screen and (max-width: 900px) {
+    .contact-form {
+        width: 90%;
+        min-height: 70vh;
+       
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    .contact-form {
+        width: 90%;
+      
+    }
+
+    .contact-form h3 {
+      font-size: 1.5em;
+    }
+
+    .contact-form h4 {
+        font-size: 1em;
+    }
+
+    .subject {
+        font-size: 0.5em;
+    }
+
+    .contact-form .btnContact {
+        font-size: 0.8em;
+        margin: auto;
+        width: 75%;
+    }
+
+    .message {
+        margin-top: 15px;
+    }
+
+    .contact-image img {
+        width: 25%;
+    }
+
+
+}

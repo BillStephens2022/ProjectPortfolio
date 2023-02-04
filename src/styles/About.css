@@ -1,13 +1,13 @@
 
 .about-body {
-    position: relative;
-    background: url(../../public/images/background.jpeg);
-    font-style: Montserrat;
-    font-weight: 900;
-    background-size: cover;
-    background-position: center;
-    min-height: 100vh;
-    color: rgb(25, 43, 57);
+  position: relative;
+  background: url(../../public/images/background.jpeg);
+  font-style: Montserrat;
+  font-weight: 900;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  color: rgb(25, 43, 57);
 }
 
 .about-body h1 {
@@ -47,26 +47,26 @@ animation: slideLeft 1s ease-in-out;
 }
 
 .about-paragraph {
-    font-size: 1.75em;
-    font-weight: 500;
-    max-width: 700px;
-    padding: 15px;
-    margin-top: 15px;
-    color: #fff;
-    animation: slideUp 1s ease-in-out;
-    background-color: #3c4344;
-    border-radius: 10px;
-    box-shadow: white 5px 5px 15px;
-    line-height: 1.5em;
+  font-size: 1.75em;
+  font-weight: 500;
+  max-width: 700px;
+  padding: 15px;
+  margin-top: 15px;
+  color: #fff;
+  animation: slideUp 1s ease-in-out;
+  background-color: #3c4344;
+  border-radius: 10px;
+  box-shadow: white 5px 5px 15px;
+  line-height: 1.5em;
 }
 
 .bill-pic-1 {
-    text-align: center;
-    width: 60%;
-    border-radius: 5%;
-    border: cornsilk 10px double;
-    margin: 15px 0px 15px 15px;
-    animation: slideRight 1s ease-in-out;
+  text-align: center;
+  width: 60%;
+  border-radius: 5%;
+  border: cornsilk 10px double;
+  margin: 15px 0px 15px 15px;
+  animation: slideRight 1s ease-in-out;
 }
 
 @keyframes slideRight{
@@ -132,4 +132,88 @@ animation: slideLeft 1s ease-in-out;
 .active {
   background: red;
   border-radius: 5px;
+}
+
+@media screen and (max-width: 900px) {
+
+  .about-div {
+    text-align: center;
+    margin: auto;
+  }
+
+  .about-body h1 {
+    font-size: 4em;
+    text-align: center;
+  }
+
+  .about-body h2 {
+    font-size: 3em;
+    text-align: center;
+  }
+
+  .about-body p {
+    font-size: 1.25em;
+    text-align: center;
+   
+  }
+
+  .about-body img {
+    width: 40%;
+    margin-bottom: 0;
+
+  }
+
+  .nav-item, .brand {
+    font-size: 1em;
+  }
+
+  .navbar-nav {
+    margin-top: 15px;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+
+  .about-div {
+    text-align: center;
+  }
+
+  .about-body h1 {
+    font-size: 3em;
+    text-align: center;
+  }
+
+  .about-body h2 {
+    font-size: 2em;
+    text-align: center;
+  }
+
+  .about-body p {
+    font-size: 1em;
+    text-align: center;
+    margin-left: 15px;
+  }
+
+  .about-body img {
+    margin-top: 50px;
+ 
+  }
+
+  .nav-item, .brand {
+    font-size: 0.75em;
+  }
+
+  .navbar-nav {
+    margin-top: 15px;
+  }
+
+}
+
+@media screen and (max-width: 400px) {
+
+  .about-body img {
+    margin-top: 75px;
+  }
+
 }
