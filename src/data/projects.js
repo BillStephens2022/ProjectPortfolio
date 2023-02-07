@@ -44,7 +44,7 @@ export const projects = [
     image3: 'restaurant3.png',
     image4: 'restaurant4.png',
     image5: 'restaurant5.png',
-    deployedUrl: "N/A",
+    deployedUrl: "https://billstephens2022.github.io/LagunaCafe/",
     gitHubRepoUrl: "https://github.com/BillStephens2022/LagunaCafe",
   },
   {
@@ -226,5 +226,17 @@ export const projects = [
     image5: "",
     deployedUrl: "N/A",
     gitHubRepoUrl: "https://github.com/BillStephens2022/Emojipedia",
+  },
+  {
+    id: 20,
+    title: "Social Network API",
+    desc: "Back end for a social network where users can sign up, add friends, and post thoughts and reactions.",
+    image1: 'socialNetwork.png',
+    image2: "",
+    image3: "",
+    image4: "",
+    image5: "",
+    deployedUrl: "N/A",
+    gitHubRepoUrl: "https://github.com/BillStephens2022/Social-Network-API-NoSQL",
   },
 ];
