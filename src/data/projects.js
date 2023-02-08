@@ -157,6 +157,18 @@ export const projects = [
   },
   {
     id: 14,
+    title: "Book Search Engine - MERN stack",
+    desc: "Refactored App from RESTful API to MERN Stack. User can signup/login and save books under their profile using Google Books API.",
+    image1: 'googleBooks.png',
+    image2: "",
+    image3: "",
+    image4: "",
+    image5: "",
+    deployedUrl: "https://book-search-engine-mern-bill.herokuapp.com/",
+    gitHubRepoUrl: "https://github.com/BillStephens2022/Book-Search-Engine-MERN",
+  },
+  {
+    id: 15,
     title: "README Generator",
     desc: "Generates a README.md file after responding to questions in the command line",
     image1: 'readme.png',
@@ -168,7 +180,7 @@ export const projects = [
     gitHubRepoUrl: "https://github.com/BillStephens2022/README-generator",
   },
   {
-    id: 15,
+    id: 16,
     title: "Team Profile Generator",
     desc: "Generates Team Profile page after entering team details in the command line",
     image1: 'teamProfile.png',
@@ -180,7 +192,7 @@ export const projects = [
     gitHubRepoUrl: "https://github.com/BillStephens2022/Team-Profile-Generator",
   },
   {
-    id: 16,
+    id: 17,
     title: "Note Taker",
     desc: "App where you can create, save, and delete notes utilizing Node.js",
     image1: 'noteTaker.png',
@@ -192,7 +204,7 @@ export const projects = [
     gitHubRepoUrl: "https://github.com/BillStephens2022/Note-Taker",
   },
   {
-    id: 17,
+    id: 18,
     title: "Employee Tracker",
     desc: "Employee database app utilizing Node.js, npm Inquirer package and mySQL",
     image1: 'employeeTracker.png',
@@ -204,7 +216,7 @@ export const projects = [
     gitHubRepoUrl: "https://github.com/BillStephens2022/Employee-Tracker-SQL",
   },
   {
-    id: 18,
+    id: 19,
     title: "E-Commerce Back End",
     desc: "Sample E-commerce back end using Node, Express, MySQL, Sequelize",
     image1: 'ecommerce.png',
@@ -216,7 +228,7 @@ export const projects = [
     gitHubRepoUrl: "https://github.com/BillStephens2022/E-Commerce-Back-End",
   },
   {
-    id: 19,
+    id: 20,
     title: "Emojipedia",
     desc: "Emojipedia is a REACT app which displays cards with the emoji along with the description/definition.",
     image1: 'emojipedia.png',
@@ -228,7 +240,7 @@ export const projects = [
     gitHubRepoUrl: "https://github.com/BillStephens2022/Emojipedia",
   },
   {
-    id: 20,
+    id: 21,
     title: "Social Network API",
     desc: "Back end for a social network where users can sign up, add friends, and post thoughts and reactions.",
     image1: 'socialNetwork.png',
