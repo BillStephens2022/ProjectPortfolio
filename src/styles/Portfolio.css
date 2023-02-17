@@ -35,18 +35,15 @@
     border: 2px #034f84 solid !important;
     box-shadow: rgba(0, 0, 0, 0.45) 5px 20px 25px -5px;
     padding: 0px !important;
-
 }
 
 .card-body {  
     background:#034f84;
-  
 }
 
 .card-image {
     background-color: white;
 }
-
 
 .card-title {
     color: #FF512F;
@@ -81,6 +78,14 @@
     .portfolio-page h1 {
       font-size: 4em;
     }
+}
+
+@media screen and (max-width: 600px) {
+    .portfolio-page h1 {
+      font-size: 2.25em;
+    }
+
+    
 }
 
 @media screen and (max-width: 400px) {

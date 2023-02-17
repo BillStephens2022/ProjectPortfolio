@@ -6,7 +6,7 @@ import React from "react";
 
 export default function ProjectCard({ project }) {
   return (
-    <div className="col-lg-2 col-md-5 col-sm-6 card m-2 mb-4 text-black bg-light">
+    <div className="card col-lg-2 col-md-5 col-sm-6 card m-2 mb-4 text-black bg-light">
       <div className="card-image bg-danger">
       <img
         src={`${process.env.PUBLIC_URL}/images/${project.image1}`}
@@ -29,7 +29,7 @@ export default function ProjectCard({ project }) {
         null
       }
         
-        <a href={project.deployedUrl} className="btn card-link text-black button-link">
+        <a href={project.gitHubRepoUrl} className="btn card-link text-black button-link">
         <i className="fab fa-github"></i>
           Github Repo
         </a>

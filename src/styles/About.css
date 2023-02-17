@@ -115,7 +115,7 @@ animation: slideLeft 1s ease-in-out;
 
 .brand {
   font-weight: 900;
-  font-size: 1.25em;
+  font-size: 1.15em;
   padding: 10px;
 }
 
@@ -125,7 +125,7 @@ animation: slideLeft 1s ease-in-out;
 }
 
 .nav-item {
-  font-size: 1.25em;
+  font-size: 1.15em;
   margin: 0 25px;
 }
 
@@ -134,7 +134,7 @@ animation: slideLeft 1s ease-in-out;
   border-radius: 5px;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 920px) {
 
   .about-div {
     text-align: center;
@@ -177,25 +177,24 @@ animation: slideLeft 1s ease-in-out;
     text-align: center;
   }
 
+  .bill-pic-1 {
+    margin-top: 100px !important;
+  }
+
   .about-body h1 {
     font-size: 3em;
     text-align: center;
   }
 
   .about-body h2 {
-    font-size: 2em;
+    font-size: 1.5em;
     text-align: center;
   }
 
   .about-body p {
-    font-size: 1em;
+    font-size: 1.15em;
     text-align: center;
     margin-left: 15px;
-  }
-
-  .about-body img {
-    margin-top: 50px;
- 
   }
 
   .nav-item, .brand {
@@ -206,12 +205,54 @@ animation: slideLeft 1s ease-in-out;
     margin-top: 15px;
   }
 
+  .footer {
+    color: white;
+    font-size: 1em;
+  }
+
+  .footer-span {
+    margin: 8px;
+  }
+
+  .footer-icon {
+    margin: 8px;
+  }
+
 }
 
 @media screen and (max-width: 400px) {
+  .about-body {
+    max-height: 80vh;
+  }
 
   .about-body img {
-    margin-top: 75px;
+    margin-top: 25px;
+  }
+
+  .about-body h1 {
+    font-size: 2.5em;
+  }
+
+  .about-body p {
+    font-size: 0.75em;
+  }
+
+  .about-div {
+    margin-top: 25px;
+  }
+
+
+  .footer {
+    color: white;
+    font-size: 1em;
+  }
+
+  .footer-span {
+    margin: 8px;
+  }
+
+  .footer-icon {
+    margin: 8px;
   }
 
 }

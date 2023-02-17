@@ -119,7 +119,7 @@ export default function Resume() {
             </ul>
           </div>
         </div>
-        <div className="col-sm-8 col-md-9 col-lg-10 section-headers">
+        <div className="col-sm-8 col-md-9 col-lg-10 section-headers work-experience">
           <h2 className="section-headers">WORK EXPERIENCE</h2>
           <hr />
           <div className="MorganStanley">
@@ -290,24 +290,24 @@ export default function Resume() {
               <div className="col-sm-4 col-md-4 col-lg-5 degrees">
                 <h3>Graduate and Undergraduate Degrees</h3>
                 <br />
-                <p className="degree">MBA, Professional Accounting</p>
-                <p className="college">Rutgers University</p>
-                <p className="time-range">1995-1996</p>
+                <h6 className="degree">MBA, Professional Accounting</h6>
+                <h6 className="college">Rutgers University</h6>
+                <h6 className="time-range">1995-1996</h6>
                 <br />
-                <p className="degree">B.S. Administration of Justice</p>
-                <p className="college">Rutgers University</p>
-                <p className="time-range">1990 - 1994</p>
+                <h6 className="degree">B.S. Administration of Justice</h6>
+                <h6 className="college">Rutgers University</h6>
+                <h6 className="time-range">1990 - 1994</h6>
               </div>
               <div className="col-sm-4 col-md-4 col-lg-5 degrees">
                 <h3>Coding Bootcamps</h3>
                 <br />
-                <p className="degree">Rutgers Coding Bootcamp</p>
-                <p className="college">Rutgers University</p>
-                <p className="time-range">2022 - present</p>
+                <h6 className="degree">Rutgers Coding Bootcamp</h6>
+                <h6 className="college">Rutgers University</h6>
+                <h6 className="time-range">2022 - present</h6>
                 <br />
-                <p className="degree">The Complete 2022 Web Development Bootcamp</p>
-                <p className="college">Udemy, Instructor: Dr Angela Yu</p>
-                <p className="time-range">2022</p>
+                <h6 className="degree text-wrap">The Complete 2022 Web Development Bootcamp</h6>
+                <h6 className="college">Udemy, Instructor: Dr Angela Yu</h6>
+                <h6 className="time-range">2022</h6>
               </div>
             </div>
           </div>

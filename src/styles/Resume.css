@@ -50,16 +50,6 @@ p {
   margin: 15px 0px 15px 15px;
 }
 
-@media screen and (max-width: 900px) {
-  .bill-pic {
-    width: 150px;
-  }
-  .container {
-    min-width: 99vw;
-  }
-
-}
-
 .summary {
   background: #36486b;
   text-align: left;
@@ -187,4 +177,71 @@ meter::-webkit-meter-optimum-value {
 
 .row {
   margin-right: 0 !important;
+}
+
+
+@media screen and (max-width: 900px) {
+  .resume-div {
+    margin-left: 15px;
+  }
+  .bill-pic {
+    width: 150px;
+  }
+  .container {
+    min-width: 99vw;
+  }
+  .email {
+    font-size: 0.9em;
+  }
+  .education {
+    line-height: 10px;
+  }
+  .degrees {
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .email {
+    font-size: .85em;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .download-button {
+    font-size: 1em !important;
+  }
+  .resume-div {
+    margin-left: 15px;
+  }
+  .work-experience {
+    padding-left: 55px;
+  }
+  .MSLogo {
+    width: 50%;
+  }
+  .CSLogo {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .download-button {
+    font-size: 0.75em !important;
+  }
+  .resume-div {
+    margin-left: 15px;
+  }
+  .work-experience {
+    padding-left: 55px;
+  }
+
+  .education {
+    line-height: 15px;
+  }
+
+  .text-wrap {
+    line-height: 25px;
+    margin-bottom: 10px;
+  }
 }

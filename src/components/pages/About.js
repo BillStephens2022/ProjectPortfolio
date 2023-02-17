@@ -6,7 +6,7 @@ import "../../styles/About.css";
 export default function About() {
   return (
     <div className="about-body row">
-      <div className="col-lg-4 col-sm-12 d-flex align-items-center justify-content-center">
+      <div className="about-body-img col-lg-4 col-sm-12 d-flex align-items-center justify-content-center">
         <img
           className="bill-pic-1"
           src={`${process.env.PUBLIC_URL}/images/bill.jpeg`}
