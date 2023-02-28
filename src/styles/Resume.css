@@ -37,17 +37,20 @@ p {
 }
 
 .photo {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
   text-align: center;
   background-color: #deeaee;
 }
 
 .bill-pic {
   text-align: center;
-  width: 75%;
-  border-radius: 20%;
-  border: 8px solid;
-  border-color: white;
-  margin: 15px 0px 15px 15px;
+  max-width: 97%;
+  max-height: 97%;
+  border-radius: 5%;
+  box-shadow: 2px 2px 7px #36486b;
+  margin: auto;
 }
 
 .summary {
@@ -80,6 +83,7 @@ p {
 
 .technical-skills {
   background-color: #d5e1df;
+  color: #618685;
 }
 
 .fa {
@@ -99,33 +103,72 @@ p {
   padding-left: 10px;
 }
 
+.projects h3 {
+  font-size: 1em;
+  color: #36486b;
+}
+
+.portfolio-link {
+  font-size: 0.70em;
+}
+
+.links {
+  font-size: 0.75em;
+}
+
+.link-left {
+  margin-left: 15px;
+}
+
+.project-list {
+  font-weight: 100;
+  color: #36486b;
+  font-size: 15px;
+}
+
 .work-experience {
   background-color: #fff;
+}
+
+.job-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.job-note {
+  margin-left: 15px;
 }
 
 .role {
   font-style: Montserrat;
   font-weight: 400;
   color: #618685;
-  font-size: 20px;
+  font-size: 0.75em;
 }
 
 .company {
   font-style: Montserrat;
   font-weight: 400;
   color: black;
-  font-size: 20px;
+  font-size: 1em;
 }
 
 .MSLogo{
-  width: 17.5%;
+  width: 22.5%;
   padding-right: 15px;
 }
 
 .CSLogo {
-  width: 15%;
+  width: 20%;
   padding-right: 15px;
   padding-bottom: 15px;
+}
+
+.job-div {
+  justify-content: space-between;
 }
 
 .time-range {
@@ -133,6 +176,22 @@ p {
   font-weight: 400;
   color: black;
   font-size: 15px;
+}
+
+.job-summary {
+  font-style: Montserrat;
+  font-weight: 400;
+  color: black;
+  font-size: 15px;
+  margin-left: 10px;
+}
+
+.accomplishments {
+  font-style: Montserrat;
+  font-weight: 400;
+  color: black;
+  font-size: 15px;
+  margin-left: 2px;
 }
 
 .work-bullets {
@@ -179,23 +238,54 @@ meter::-webkit-meter-optimum-value {
   margin-right: 0 !important;
 }
 
+@media screen and (max-width: 1400px) {
+  .email {
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .contact-info-technical {
+    padding: 0 !important;
+  }  
+
+  .email {
+    font-size: 0.85em;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .contact-info-technical {
+    padding: 0 !important;
+  }  
+
+  .email {
+    font-size: 0.75em;
+  }
+}
+
 
 @media screen and (max-width: 900px) {
   .resume-div {
     margin-left: 15px;
   }
+
   .bill-pic {
     width: 150px;
   }
+
   .container {
     min-width: 99vw;
   }
+
   .email {
     font-size: 0.9em;
   }
+
   .education {
     line-height: 10px;
   }
+
   .degrees {
     margin: auto;
   }
@@ -212,12 +302,15 @@ meter::-webkit-meter-optimum-value {
   .download-button {
     font-size: 1em !important;
   }
+
   .resume-div {
     margin-left: 15px;
   }
-  .work-experience {
-    padding-left: 55px;
+
+  .projects {
+    padding-left: 25px;
   }
+
   .MSLogo {
     width: 50%;
   }
@@ -232,8 +325,8 @@ meter::-webkit-meter-optimum-value {
   .resume-div {
     margin-left: 15px;
   }
-  .work-experience {
-    padding-left: 55px;
+  .projects {
+    padding-left: 15px;
   }
 
   .education {
