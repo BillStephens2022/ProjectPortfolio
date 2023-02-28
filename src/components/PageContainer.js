@@ -27,7 +27,8 @@ export default function PageContainer() {
     setCurrentPage(page);
     const el = document.querySelector('.navbar-collapse');
     el.classList.remove('show');
-  }
+  };
+
   return (
     <div>
       {/* We are passing the currentPage from state and the function to update it */}
