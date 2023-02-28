@@ -23,8 +23,11 @@ export default function PageContainer() {
     return <Contact />;
   };
 
-  const handlePageChange = (page) => setCurrentPage(page);
-
+  const handlePageChange = (page) => {
+    setCurrentPage(page);
+    const el = document.querySelector('.navbar-collapse');
+    el.classList.remove('show');
+  }
   return (
     <div>
       {/* We are passing the currentPage from state and the function to update it */}
