@@ -1,7 +1,7 @@
 export const projects = [
   {
     id: 1,
-    title: "Community Chat",
+    title: "Expense Tracker",
     desc: "Personal Expense Tracker built with MERN stack",
     image1: 'expense1.png',
     image2: 'expense2.png',
