@@ -33,8 +33,10 @@
     padding: 12px;
     background-clip: border-box;
     border: 2px #034f84 solid !important;
+    border-radius: 10%;
     box-shadow: rgba(0, 0, 0, 0.45) 5px 20px 25px -5px;
     padding: 0px !important;
+    overflow: hidden;
 }
 
 .card-body {  
@@ -43,6 +45,7 @@
 
 .card-image {
     background-color: white;
+    overflow: hidden;
 }
 
 .card-title {
