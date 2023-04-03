@@ -7,7 +7,7 @@ import React from "react";
 export default function ProjectCard({ project }) {
   return (
     <div className="card col-lg-2 col-md-5 col-sm-6 card m-2 mb-4 text-black bg-light">
-      <div className="card-image bg-danger">
+      <div className="card-image">
       <img
         src={`${process.env.PUBLIC_URL}/images/${project.image1}`}
         className="card-img-top"

@@ -205,6 +205,18 @@ export const projects = [
   },
   {
     id: 18,
+    title: "Nexter",
+    desc: "Real Estate site built using advanced CSS/SCSS",
+    image1: 'nexter.png',
+    image2: "",
+    image3: "",
+    image4: "",
+    image5: "",
+    deployedUrl: "https://billstephens2022.github.io/Nexter/",
+    gitHubRepoUrl: "https://github.com/BillStephens2022/Nexter",
+  },
+  {
+    id: 19,
     title: "Emojipedia",
     desc: "Emojipedia is a REACT app which displays cards with the emoji along with the description/definition.",
     image1: 'emojipedia.png',
@@ -216,7 +228,7 @@ export const projects = [
     gitHubRepoUrl: "https://github.com/BillStephens2022/Emojipedia",
   },
   {
-    id: 19,
+    id: 20,
     title: "README Generator",
     desc: "Generates a README.md file after responding to questions in the command line",
     image1: 'readme.png',
@@ -228,7 +240,7 @@ export const projects = [
     gitHubRepoUrl: "https://github.com/BillStephens2022/README-generator",
   },
   {
-    id: 20,
+    id: 21,
     title: "Team Profile Generator",
     desc: "Generates Team Profile page after entering team details in the command line",
     image1: 'teamProfile.png',
@@ -240,7 +252,7 @@ export const projects = [
     gitHubRepoUrl: "https://github.com/BillStephens2022/Team-Profile-Generator",
   },
   {
-    id: 21,
+    id: 22,
     title: "Note Taker",
     desc: "App where you can create, save, and delete notes utilizing Node.js",
     image1: 'noteTaker.png',
@@ -252,7 +264,7 @@ export const projects = [
     gitHubRepoUrl: "https://github.com/BillStephens2022/Note-Taker",
   },
   {
-    id: 22,
+    id: 23,
     title: "Employee Tracker",
     desc: "Employee database app utilizing Node.js, npm Inquirer package and mySQL",
     image1: 'employeeTracker.png',
@@ -264,7 +276,7 @@ export const projects = [
     gitHubRepoUrl: "https://github.com/BillStephens2022/Employee-Tracker-SQL",
   },
   {
-    id: 23,
+    id: 24,
     title: "E-Commerce Back End",
     desc: "Sample E-commerce back end using Node, Express, MySQL, Sequelize",
     image1: 'ecommerce.png',
@@ -277,7 +289,7 @@ export const projects = [
   },
   
   {
-    id: 24,
+    id: 25,
     title: "Social Network API",
     desc: "Back end for a social network where users can sign up, add friends, and post thoughts and reactions.",
     image1: 'socialNetwork.png',
